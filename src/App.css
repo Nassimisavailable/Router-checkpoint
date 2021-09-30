@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+.movie-list{
+  background-color: #282c34;
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: space-around; 
+}
+
+.movie-list > *{
+  margin-top: 20px;
+  
+}
+.search{
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-around;
+  background-color: transparent;
+  background-color: rgba(3, 1, 1, 0.374);
+  padding: 1.4em;
+}
+
+
+.navigation{
+  width:80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.navigation img{
+width: 130px;
+}
+
+.navigation ul{
+display: flex;
+list-style: none;
+}
+
+.navigation ul li{
+margin-left: 15px;
+padding:1.1em;
+}
+.navigation ul li:hover{
+border-bottom: 1px solid gray;
+}
+
+.navigation ul > *{
+  text-decoration: none;
+  color: gray;
+}
+.navigation ul li i{
+  margin-right: 5px;
+}
+
+.btn{
+  position: absolute;
+  top: 20px;
+  background-color: transparent !important;
+  border: 1px solid gray !important;
+  color: gray !important  ;
+  outline: none !important;
+}
+
+.landing {
+  padding:1.4em;
+  background-color: red;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about{
+  text-align: left;
+  padding: 1.1em;
+}
